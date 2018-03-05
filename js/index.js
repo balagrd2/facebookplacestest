@@ -1,4 +1,3 @@
-
 /**
  * Initialize typeahead.js
  */
@@ -7,7 +6,7 @@ $('.typeahead').typeahead({
   name: $(this).attr('id'),
   limit: 10,
   remote: {
-	url: 'https://graph.facebook.com/v2.5/search?fields=id,name,location,picture,checkins,category&type=place&q=%QUERY&limit=10&access_token={fb_app_access_token}',
+	url: 'https://graph.facebook.com/v2.5/search?fields=id,name,location,picture,checkins,category&type=place&q=%QUERY&limit=10&access_token=416319838749996|zGbIgQ74Pyb5Uf5vyGnD0zUoPSw',
     filter: function(parsedResponse) {
 	  actualData = parsedResponse['data']
       var result = [];
